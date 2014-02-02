@@ -3,7 +3,7 @@ vagrant-vdebug
 
 Reproduction of vdebug bug
 
-https://github.com/joonty/vdebug/issues/78
+https://github.com/joonty/vdebug/issues/137
 
 Steps to reproduce:
 
