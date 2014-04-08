@@ -1,0 +1,19 @@
+- [Info] {Wed 09 2014 00:06:51} Searching for win by name /home/saji/src/vagrant-vdebug/index.php
+- [Info] {Wed 09 2014 00:06:51} Win 1, name /home/saji/src/vagrant-vdebug/index.php
+- [Info] {Wed 09 2014 00:06:51} Returning window number 1
+- [Info] {Wed 09 2014 00:06:51} Found connection from ('192.168.13.102', 51906)
+- [Info] {Wed 09 2014 00:06:51} Updated line number of breakpoint 11000 to 3
+- [Info] {Wed 09 2014 00:06:51} Registering 1 breakpoints with the debugger
+- [Debug] {Wed 09 2014 00:06:51} Command: breakpoint_set -i 1 -t line -f file:///vagrant/index.php -n 3 -s enabled
+- [Debug] {Wed 09 2014 00:06:51} Response: <?xml version="1.0" encoding="iso-8859-1"?>
+<response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="1" state="enabled" id="30890001"></response>
+- [Debug] {Wed 09 2014 00:06:51} Command: context_names -i 2
+- [Debug] {Wed 09 2014 00:06:51} Response: <?xml version="1.0" encoding="iso-8859-1"?>
+<response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_names" transaction_id="2"><context name="Locals" id="0"></context><context name="Superglobals" id="1"></context></response>
+- [Debug] {Wed 09 2014 00:06:51} Available context names: {0: 'Locals', 1: 'Superglobals'}
+- [Debug] {Wed 09 2014 00:06:51} Command: step_into -i 3
+- [Debug] {Wed 09 2014 00:06:51} Response: <?xml version="1.0" encoding="iso-8859-1"?>
+<response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="3" status="stopping" reason="ok"></response>
+- [Info] {Wed 09 2014 00:06:51} Debugging session has ended
+- [Info] {Wed 09 2014 00:06:51} Closing the connection
+- [Debug] {Wed 09 2014 00:06:51} Closing the socket

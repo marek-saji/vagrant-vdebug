@@ -1,0 +1,66 @@
+Log opened at 2014-04-08 22:06:52
+I: Connecting to configured address/port: 192.168.13.1:9002.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///vagrant/index.php" language="PHP" protocol_version="1.0" appid="3089"><engine version="2.2.3"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2013 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_set -i 1 -t line -f file:///vagrant/index.php -n 3 -s enabled
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="1" state="enabled" id="30890001"></response>
+
+<- context_names -i 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_names" transaction_id="2"><context name="Locals" id="0"></context><context name="Superglobals" id="1"></context></response>
+
+<- step_into -i 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="3" status="stopping" reason="ok"></response>
+
+Log closed at 2014-04-08 22:06:52
+
+Log opened at 2014-04-08 22:07:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:07:04
+
+Log opened at 2014-04-08 22:07:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:07:04
+
+Log opened at 2014-04-08 22:07:34
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:07:34
+
+Log opened at 2014-04-08 22:07:34
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:07:34
+
+Log opened at 2014-04-08 22:08:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:08:04
+
+Log opened at 2014-04-08 22:08:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:08:04
+
+Log opened at 2014-04-08 22:08:34
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:08:34
+
+Log opened at 2014-04-08 22:08:34
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:08:34
+
+Log opened at 2014-04-08 22:09:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:09:04
+
+Log opened at 2014-04-08 22:09:04
+I: Connecting to configured address/port: 192.168.13.1:9002.
+E: Could not connect to client. :-(
+Log closed at 2014-04-08 22:09:04
+
