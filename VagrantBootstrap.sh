@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ZEND_SERVER_VERSION=6.2.0
-PHP_VERSION=5.4
+ZEND_SERVER_VERSION=6.3.0
+PHP_VERSION=5.5
 
 
 if ! ( dpkg-query -W zend-server-php-${PHP_VERSION} >/dev/null 2>&1 )
@@ -24,3 +24,4 @@ apt-get install -y php-${PHP_VERSION}-xdebug-zend-server
 ln -sfn /vagrant/xdebug.ini /usr/local/zend/etc/conf.d/xdebug.ini
 
 service apache2 restart
+apt-get clean
